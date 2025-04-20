@@ -20,4 +20,3 @@ async def handle_start(client: Client, message: Message):
         return
 
     await message.reply_text(START_TEXT, parse_mode="markdown")
-
